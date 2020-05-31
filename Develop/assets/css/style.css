@@ -1,3 +1,4 @@
+/*General*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,26 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,21 +53,12 @@ body {
     font-size: 20px;
 }
 
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*Hero*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,16 +68,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*Content*/
 .content {
     width: 75%;
     display: inline-block;
@@ -90,6 +93,7 @@ p {
     font-size: 36px;
 }
 
+/*Benefits*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,54 +105,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-style {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-style h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-style img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*Footer*/
 .footer {
     padding: 30px;
     clear: both;
